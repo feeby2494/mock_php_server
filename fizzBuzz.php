@@ -22,6 +22,7 @@
 
             <input type="submit">
         </form> -->
+        <h2>PHP version</h2>
         <?php 
             // function for the Fizz Buzz issue
             for( $i = 1; $i <= 100; $i++ ) {
@@ -36,6 +37,9 @@
                 }         
             }
         ?>
+        <h2>JS version</h2>
+        <div id="fizz-buzz"></div>
     </body>
     <script src="js/fizzBuzz.js"></script>
+    <script src="js/fizzBuzzHtml.js"></script>
 </html>
