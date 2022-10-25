@@ -37,4 +37,5 @@
             }
         ?>
     </body>
+    <script src="js/fizzBuzz.js"></script>
 </html>
