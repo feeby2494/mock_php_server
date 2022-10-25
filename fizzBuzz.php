@@ -16,18 +16,25 @@
             <a href="/calculator.php">Calculator</a>
             <a href="/madLibsGame.php">Mad Libs Game</a>
         </div>
-        <h2>Login</h2>
+        <!-- <h2>Login</h2>
         <form action="login.php" method="post">
-            Username: <input type="text" name="username">
-            <br>
-            Password: <input type="password" name="password">
-            
+           
 
             <input type="submit">
-        </form>
+        </form> -->
         <?php 
-            //echo dirname(__dir__);
-            echo $_POST["password"];
+            // function for the Fizz Buzz issue
+            for( $i = 1; $i <= 100; $i++ ) {
+                if ( $i % 15 == 0 ) {
+                    echo "FizzBuzz<br>";
+                } elseif ( $i % 3 == 0 ) {
+                    echo "Fizz<br>";
+                } elseif ( $i % 5 == 0 ) {
+                    echo "Buzz<br>";
+                } else {
+                    echo $i . '<br>';
+                }         
+            }
         ?>
     </body>
 </html>
